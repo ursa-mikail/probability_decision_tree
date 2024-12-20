@@ -1,0 +1,34 @@
+// Gain Probability Tree
+digraph {
+	Root
+	D1
+	Root -> D1
+	D1O1 [label="D1O1
+P=0.4
+G/L=50"]
+	D1 -> D1O1
+	D1O2 [label="D1O2
+P=0.6
+G/L=70"]
+	D1 -> D1O2
+	D2
+	Root -> D2
+	D2O1 [label="D2O1
+P=0.3
+G/L=40"]
+	D2 -> D2O1
+	D2O2 [label="D2O2
+P=0.7
+G/L=30"]
+	D2 -> D2O2
+	D3 [fillcolor=yellow style=filled]
+	Root -> D3
+	D3O1 [label="D3O1
+P=0.5
+G/L=60"]
+	D3 -> D3O1
+	D3O2 [label="D3O2
+P=0.5
+G/L=80"]
+	D3 -> D3O2
+}

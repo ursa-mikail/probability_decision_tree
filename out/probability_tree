@@ -1,0 +1,46 @@
+// Probability Tree
+digraph {
+	Root
+	D1 [fillcolor=red style=filled]
+	Root -> D1
+	D1O1 [label="D1O1
+P=0.68
+G/L=-94"]
+	D1 -> D1O1
+	D1O2 [label="D1O2
+P=0.26
+G/L=-38"]
+	D1 -> D1O2
+	D1O3 [label="D1O3
+P=0.05999999999999994
+G/L=-43"]
+	D1 -> D1O3
+	D2 [fillcolor=yellow style=filled]
+	Root -> D2
+	D2O1 [label="D2O1
+P=0.23
+G/L=-74"]
+	D2 -> D2O1
+	D2O2 [label="D2O2
+P=0.55
+G/L=39"]
+	D2 -> D2O2
+	D2O3 [label="D2O3
+P=0.21999999999999997
+G/L=-78"]
+	D2 -> D2O3
+	D3
+	Root -> D3
+	D3O1 [label="D3O1
+P=0.63
+G/L=-92"]
+	D3 -> D3O1
+	D3O2 [label="D3O2
+P=0.11
+G/L=-45"]
+	D3 -> D3O2
+	D3O3 [label="D3O3
+P=0.26
+G/L=-41"]
+	D3 -> D3O3
+}
